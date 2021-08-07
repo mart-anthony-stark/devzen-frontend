@@ -10,9 +10,6 @@ nav .logo{
     letter-spacing: 1rem;
     user-select: none;
 }
-.index .main{
-
-}
 .index .main .intro{
     display: flex;
     flex-direction: column;
@@ -56,4 +53,34 @@ nav .logo{
     left: -400px;
     bottom: -300px;
     height: 700px;
+}
+.circle#three{
+    position: fixed;
+    bottom: -300px;
+    right: -300px;
+}
+.index .info{
+    padding: 0 150px;
+}
+.index .info img{
+    width: 800px;
+}
+.index .info .right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.index .info span{
+    background: var(--c-font);
+    font-size: 4rem;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.index .info p{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--c-font);
+    max-width: 600px;
 }
