@@ -1,0 +1,59 @@
+nav{
+    position: absolute;
+    width: 100%;
+    padding: 25px;
+    color: var(--c-font);
+}
+nav .logo{
+    font-size: 3rem;
+    font-family: 'Mina', sans-serif;
+    letter-spacing: 1rem;
+    user-select: none;
+}
+.index .main{
+
+}
+.index .main .intro{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 70px;
+}
+.index .main .intro .tagline{
+    font-size: 5rem;
+    color: var(--c-font);
+}
+.index .main .intro .tagline span{
+    display: block;
+}
+.index .main img{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 900px;
+    height: 900px;
+}
+.btn.signup{
+    font-size: 2rem;
+    border-radius: 25px;
+    background: var(--c-cta);
+    color: var(--c-font);
+    cursor: pointer;
+    padding: 10px;
+}
+.index .circle{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: var(--c-comp);
+}
+.circle#one{
+    top: -400px;
+    left: 30%;
+}
+.circle#two{
+    left: -400px;
+    bottom: -300px;
+    height: 700px;
+}
