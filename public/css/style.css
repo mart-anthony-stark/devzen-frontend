@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
-@import url('./signin.css');
 @import url('./index.css');
 *{
   margin: 0;
